@@ -3,6 +3,7 @@ from stats_utils import *
 from scrape_utils import *
 from pytz import timezone
 from datetime import datetime, date, timedelta
+import pandas as pd
 
 start_date = date(2019, 10, 22)
 end_date = date(2019, 11, 1)
