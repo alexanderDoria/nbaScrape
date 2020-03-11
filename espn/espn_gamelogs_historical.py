@@ -3,7 +3,6 @@ from stats_utils import *
 from scrape_utils import *
 from pytz import timezone
 from datetime import datetime, date, timedelta
-import pandas as pd
 
 start_date = date(2019, 10, 22)
 end_date = date(2019, 11, 1)
@@ -45,7 +44,7 @@ for single_date in daterange(start_date, end_date):
     logs.clear()
 
 
-#(optional) writre to csv
+#(optional) write to csv
 #logs = pd.DataFrame(logs)
 #logs.to_csv("gamelogs.csv")
 

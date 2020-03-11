@@ -5,7 +5,6 @@ from stats_utils import *
 from scrape_utils import *
 from pytz import timezone
 from datetime import datetime
-import pandas as pd
 
 #if hour < 12: exit()
 

@@ -5,7 +5,6 @@ from stats_utils import *
 from scrape_utils import *
 from pytz import timezone
 from datetime import datetime
-import pandas as pd
 
 tz = timezone('America/Los_Angeles')
 hour = datetime.now(tz).hour
