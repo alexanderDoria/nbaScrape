@@ -18,6 +18,3 @@ fetches gamelog from NBA on ESPN and returns gamelog dictionary, output can be w
 
 ![espn](https://i.imgur.com/YAkYE1H.png)
 
-## Yahoo
-  - scrapes NBA season stats (statScraper9cat.py)
-  - login to fantasy required
