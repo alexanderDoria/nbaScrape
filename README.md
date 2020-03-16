@@ -1,7 +1,7 @@
 # nbaScrape
 
 ## overview
-scrapes NBA stats from ESPN and Yahoo Fantasy, used for [Fantasy Basketball WZRD](https://github.com/bilalsattar24/fantasyBasketballWizard).
+scrapes NBA stats from ESPN, used for [Fantasy Basketball WZRD](https://github.com/bilalsattar24/fantasyBasketballWizard).
 
 ## ESPN
   - scrapes NBA historical stats given defined date ranges, renders JS using requests-html (espn/espn_gamelogs_historical.py)
