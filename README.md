@@ -1,7 +1,7 @@
 # nbaScrape
 
 ## overview
-Scrapes NBA stats from ESPN and Yahoo Fantasy, used for [Fantasy Basketball WZRD](https://github.com/bilalsattar24/fantasyBasketballWizard).
+scrapes NBA stats from ESPN and Yahoo Fantasy, used for [Fantasy Basketball WZRD](https://github.com/bilalsattar24/fantasyBasketballWizard).
 
 ## ESPN
   - scrapes NBA historical stats given defined date ranges, renders JS using requests-html (espn/espn_gamelogs_historical.py)
@@ -11,6 +11,12 @@ Scrapes NBA stats from ESPN and Yahoo Fantasy, used for [Fantasy Basketball WZRD
   - determine statistical value of a player (espn/scrape_utils.py)
   - scraping modules can be found in espn/scrape_utils.py
   - no login required
+
+### summary
+
+fetches gamelog from NBA on ESPN and returns gamelog dictionary, output can be written to csv or uploaded to a server 
+
+![espn](https://i.imgur.com/YAkYE1H.png)
 
 ## Yahoo
   - scrapes NBA season stats (statScraper9cat.py)
