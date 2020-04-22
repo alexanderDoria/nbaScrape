@@ -14,9 +14,10 @@ url = 'https://www.espn.com/nba/scoreboard'
 
 # TODO: read static gamelogs from WZRD API
 
+
 def scrape():
     games = get_games(url)
-    
+
     print("games: ", games)
 
     print('calculating live games...')
@@ -33,15 +34,11 @@ def scrape():
         process_gamelogs(g, url)
     print("done")
 
+
 scrape()
 
 print("logs: ", logs)
 
-if len(logs) > 0:
-    print(requests.post("https://bilalsattar24.pythonanywhere.com/nbastatline/", json={'gameLogs':logs}))
-else:
-    print("no logs")
-
-#(optional) writre to csv
+# (optional) writre to csv
 logs = pd.DataFrame(logs)
 logs.to_csv("gamelogs.csv")
